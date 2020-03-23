@@ -12,9 +12,9 @@ using System.Windows.Forms;
 
 namespace WinformExample
 {
-    public partial class Form1 : Form
+    public partial class FormExample : Form
     {
-        public Form1(String[] args)
+        public FormExample(String[] args)
         {
             InitializeComponent();
 
@@ -64,6 +64,11 @@ namespace WinformExample
         }
 
 		private void label2_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void FormExample_Load(object sender, EventArgs e)
 		{
 
 		}

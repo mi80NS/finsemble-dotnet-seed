@@ -13,9 +13,6 @@ namespace WinformExample
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
-        /// 
-        private static Finsemble FSBL = null;
-
 
         [STAThread]
         static void Main()
@@ -23,9 +20,7 @@ namespace WinformExample
 			string[] args = Environment.GetCommandLineArgs();
 			Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1(args));
+            Application.Run(new FormExample(args));
         }
-
-       
     }
 }
